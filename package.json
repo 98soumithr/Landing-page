@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build",
+    "deploy": "next build && rm -rf docs && mv out docs && echo \"book.saykeel.com\" > docs/CNAME"
   },
   "dependencies": {
     "react": "^18.2.0",
