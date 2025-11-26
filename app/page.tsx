@@ -330,31 +330,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social Proof */}
-      <section className="py-20 sm:py-24 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-[#253C80]/5 to-transparent rounded-3xl p-12 border border-[#253C80]/10">
-            <div className="text-center">
-              <svg className="w-12 h-12 text-[#253C80] mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.996 2.151c-3.312.734-5.996 3.888-5.996 7.558 0 4.089 3.134 7.092 6.912 7.201v2.09h-10.895zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-3.313.734-5.996 3.888-5.996 7.558 0 4.089 3.134 7.092 6.912 7.201v2.09h-10.916z"/>
-              </svg>
-              <p className="text-xl sm:text-2xl text-gray-900 font-medium mb-6 leading-relaxed">
-                "Keel helped us cut call handling time by 70% and never miss a lead again. It's like having a receptionist that never sleeps."
-              </p>
-              <div className="flex items-center justify-center gap-4">
-                <div className="w-12 h-12 bg-[#253C80] rounded-full flex items-center justify-center text-white font-semibold">
-                  SC
-                </div>
-                <div className="text-left">
-                  <p className="font-semibold text-gray-900">Sarah Chen</p>
-                  <p className="text-sm text-gray-600">Operations Manager</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Booking/Calendar Section */}
       <section id="booking-section" className="py-20 sm:py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
